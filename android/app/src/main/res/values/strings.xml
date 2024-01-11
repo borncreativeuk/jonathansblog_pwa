@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">capacitor-wrapper</string>
-    <string name="title_activity_main">capacitor-wrapper</string>
+    <string name="app_name">JonathansBlog App</string>
+    <string name="title_activity_main">JonathansBlog App</string>
     <string name="package_name">com.jonathansblog.app</string>
     <string name="custom_url_scheme">com.jonathansblog.app</string>
 </resources>
