@@ -1,12 +1,14 @@
 {
   "name": "jonathansblog",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+	"package": "next build && npx cap sync"
+
   },
   "dependencies": {
     "@capacitor/android": "^6.1.0",
