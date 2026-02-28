@@ -11,18 +11,18 @@
 
   },
   "dependencies": {
-    "@capacitor/android": "^6.1.0",
-    "@capacitor/core": "^6.1.0",
-    "@capacitor/ios": "^6.1.0",
-    "next": "^14",
-    "react": "^18",
-    "react-dom": "^18",
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/core": "^8.1.0",
+    "@capacitor/ios": "^8.1.0",
+    "next": "^16",
+    "react": "^19",
+    "react-dom": "^19",
     "react-iframe": "^1.8.5"
   },
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",
-    "@capacitor/cli": "^6.1.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "@capacitor/cli": "^8.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6"
   }
 }
