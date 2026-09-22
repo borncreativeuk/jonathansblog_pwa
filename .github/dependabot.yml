@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # eslint-config-next's typescript-eslint dependency currently requires
+      # typescript >=4.8.4 <6.1.0, so a TypeScript 7 upgrade breaks lint.
+      - dependency-name: "typescript"
+        versions: [">=7.0.0"]
